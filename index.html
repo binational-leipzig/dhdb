@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -22,7 +21,7 @@
 
         body {
           font-family: 'Cormorant Garamond', serif;
-          font-size: 1.6vw;
+          font-size: 1.6em;
           width: 100vw;
         }
 
@@ -141,15 +140,30 @@
           box-shadow: 0 0 8px rgba(0, 0, 0, 0) !important;
         }
 
+        .mfp-title {
+          text-align: left;
+          line-height: 1.2 !important;
+          color: #F3F3F3;
+          word-wrap: break-word;
+          padding-right: unset !important;
+          padding: 10px !important;
+        }
+        .mfp-bg {
+          opacity: 0.9 !important;
+        }
+
         
     </style> 
 
   </head>
+  
   <body>
     
     <div class="container-fluid">
       <div class="row p-0">
-        <div class="col-12 col-lg-6 bg-poetry p-5 overflow-auto" style="height:100vh;">
+
+        <!-- Desktop -->
+        <div class="col-12 col-lg-6 bg-poetry p-5 overflow-auto d-none d-md-block" style="height:100vh;">
             <div class="h1 pb-5"> <a href="#duhuegel">Du Hügel, der blieb</a></div>
             <div class="text-poetry">
               Ich möchte mich euch anschließen<br>
@@ -180,7 +194,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-lg-6 p-0 bg-poetry overflow-auto" style="height:100vh;">
+        <div class="col-12 col-lg-6 p-0 bg-poetry overflow-auto d-none d-md-block" style="height:100vh;">
           
           <div class="row p-0 m-0">
 
@@ -357,8 +371,132 @@
                 <div class="small p-3">Diese Veröffentlichung stellt keine Meinungsäußerung der Stiftung EVZ dar. Für inhaltliche Aussagen trägt der:die Autor:in die Verantwortung.</div>
               </div>
 
-            </div>
+          </div>
+
         </div>
+
+        <!-- Mobile -->
+
+        <div class="col-12 col-lg-6 bg-poetry p-3 d-block d-md-none">
+          
+          <div class="h1 pb-5"> 
+            <a 
+            href="img/1.jpg" 
+            title="
+            <p><b>Du Hügel, der blieb</b></p>
+            Wie „The Hill We Climb“ von der US-Amerikanerin Amanda Gorman ist „Du Hügel, der blieb“ als Inaugurationsgedicht entstanden. Anlässlich der Ernennung von Olaf Scholz zum neuen Bundeskanzler setzt sich der Autor aus junger PoC-Perspektive mit Deutschland auseinander. Die Ähnlichkeit mit dem Titel von Rainer Maria Rilkes Gedicht „Du Berg, der blieb“ legt zugleich die Prägung durch weiße deutsche Erzählungen offen.
+            "  
+            class="image-popup" 
+            >
+            Du Hügel, der blieb
+            </a>
+          </div>
+
+          <div class="text-poetry small">
+            Ich möchte mich euch anschließen<br>
+            und klimpere mit meinen schwarzen Wimpern.<br>
+            <a  
+            href="img/3.jpg" 
+            title="
+            <p><b>May Ayim</b></p>
+            May Ayim war eine Schwarze Lyrikerin und Aktivistin. In ihrem Gedicht “blues in schwarz weiss” heißt es:<br><br>
+            das wieder vereinigte deutschland<br>
+            feiert sich wieder 1990<br>
+            ohne immigrantInnen flüchtlinge jüdische<br>
+            und schwarze menschen<br>
+            es feiert im intimen kreis<br>
+            es feiert in weiß<br>
+            doch es ist ein blues in schwarz-weiß<br>
+            es ist ein blues<br>
+            "  
+            class="image-popup" 
+            >
+            May Ayim</a>,<br> 
+            siehst du, wie wenig weiß ich bin?<br> 
+            Meiner Urgroßväter Häute werden zu deutscher Erde.<br>  
+            Und voller Stolz erbe<br> 
+            ich von ihnen nichts.<br>  
+            <a 
+            href="img/5.jpg" 
+            title="
+            <p><b>Die Fußstapfen der Gastarbeiterin</b><p>
+            Nicht nur durch das beharrliche und lustvolle Sitzen auf öffentlichen Grünflächen, dessen Betreten verboten war, haben sogenannte Gastarbeiter*innen die deutsche Gesellschaft verändert. An vielen widerständigen Aktionen gerade der 1970er Jahre, ob Hausbesetzungen, Arbeitskämpfe oder Demonstrationen für gerechtere Lebensverhältnisse, zeigt sich die Bedeutung der Migration für die Entwicklung politischer Bewegungen. Soziale Theorien, Ideen und Erfahrungen migrierten mit.
+            " 
+            class="image-popup"
+            >Erbe ich nichts oder kann ich nur nichts dafür kaufen?</a><br>  
+            Aus ihrem Schatten,<br> 
+            in die Fußstapfen <a 
+            href="img/8.jpg" 
+            title="
+            <p><b>Erbe ich nichts oder kann ich nur nichts dafür kaufen?</b><p>
+            Ausgehend von einer queer-feministischen Berliner Buchhandlung, deren Besitzerin aus einer Familie stammt, die im und vom Nationalsozialismus profitiert hat, diskutierten Moshtari Hilal und Sinthujan Varatharajah 2021 öffentlich über „Nazierbe“, „Nazihintergrund“ und die Kontinuitäten von familiären Privilegien. 
+            " 
+            class="image-popup"
+            >der Gastarbeiterin</a>,<br>
+            der sogenannten,<br>
+            die meine Vorfahrin sein sollte,<br>
+            die meine Vorfahren nicht kannten,<br>
+            trete ich,<br>
+            indem ich auf englischen Rasen sitze<br>
+            und zu laut lache.<br>  
+            Ich spreche eure Sprachen nicht,<br> 
+            Ich summe eure Lieder nur.<br> 
+            Wer weiß, wie weiß<br>
+            die Bühnen, <a 
+            href="img/7.jpg" 
+            title="
+            <p><b>nicht die Bänder</b><p>
+            „Die Bänder sind ausländisch.“ Rassismus ist eng mit Kapitalismus verflochten. Und Menschen, die als sogenannten Gastarbeiter*innen angeworben wurden, sollten zur Unterschichtung der Gesellschaft dienen. Sie prägten aber auch und nachhaltig deutsche Arbeitskämpfe.              
+            "
+            class="image-popup"
+            >nicht die Bänder</a>, sind.<br> 
+            Und immer fehl am Platz<br> 
+            und immer <a 
+            href="img/4.jpg"
+            title="
+            <p><b>fremd im eignen Land</b></p>
+            “Fremd im eigenen Land” heißt der Titel eines Liedes von Advanced  Chemistry aus dem Jahr 1992. Die Band thematisierte darin Erfahrungen der Veranderung aus BPoC-Perspektive, wodurch sie in den frühen 1990er Jahren für viele Jugendliche mit Rassismuserfahrungen bedeutsam wurde.
+            " 
+            class="image-popup"
+            >fremd im eignen Land</a><br>
+            und immerhin.<br> 
+            Siehst du, <a 
+            href="img/6.jpg"
+            title="
+            <p><b>Halit Yozgat</b><p>
+            Halit Yozgat wurde 2006 im Alter von 21 Jahren vom NSU aus rassistischen Gründen ermordet. Mit dem Verweis auf Yozgat macht der ebenfalls 21jährige Autor des Gedichts auf die Spannbreite rassistischer Gewalt aufmerksam.
+            "  
+            class="image-popup"
+            >Halit Yozgat</a>,<br>
+            wie alt ich bald bin?<br>
+          </div>
+
+        </div>
+      
+        <div class="col-12 col-lg-6 p-0 bg-poetry d-block d-md-none" style="height:100vh;">
+          
+          <div class="row p-0 m-0">
+
+              <div class="col" style="height:50vh;"></div>
+
+              <div class="col-12 p-3">
+                <div class="text-start small px-3">
+                  Text: Ruben Sabel<br>
+                  Konzept: Anna Sabel und Özcan Karadeniz<br>
+                  Illustrationen: Morteza Rakhtala<br>
+                  Design: A. Erdem Şentürk<br>
+                </div>
+              </div>
+
+              <div class="col-12 bg-white">
+                <img src="img/gefoerdert_durch.png" style="width:100%;">
+                <div class="small p-3">Diese Veröffentlichung stellt keine Meinungsäußerung der Stiftung EVZ dar. Für inhaltliche Aussagen trägt der:die Autor:in die Verantwortung.</div>
+              </div>
+
+          </div>
+          
+        </div>
+
       </div>
     </div>
 
@@ -387,9 +525,38 @@
         return false;
       }
 
+
+      jQuery(document).ready(function() {
+        jQuery('.zoom-gallery').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          closeOnContentClick: false,
+          closeBtnInside: false,
+          mainClass: 'mfp-with-zoom mfp-img-mobile',
+          image: {
+            //verticalFit: true,
+            titleSrc: function(item) {
+              return item.el.attr('title');
+            }
+          },
+          gallery: {
+            enabled: true
+          },
+          zoom: {
+            enabled: true,
+            duration: 300, // don't foget to change the duration also in CSS
+            opener: function(element) {
+              return element.find('img');
+            }
+          }
+          
+        });
+      });
+
     </script>
 
   </body>
+
 </html>
 
 
